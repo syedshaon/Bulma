@@ -18,7 +18,7 @@ module.exports = {
     },
     // Must enable liveReload and watchFiles and disable hot to have Live Reload functionality
     watchFiles: ["src/**"],
-    port: 3000,
+    port: 3200,
     open: true,
     // hot: true,
     liveReload: true,
@@ -48,7 +48,7 @@ module.exports = {
       filename: "index.html",
       template: "./src/index.html",
       //   favicon: path.resolve(__dirname, "../icons/favicon.ico"),
-      favicon: "./src/icons/favicon.ico",
+      favicon: "./src/assets/favicon.ico",
     }),
     new ESLintPlugin(),
     new StylelintPlugin({
